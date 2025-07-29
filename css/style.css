@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+.h-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 10px 0px grey;
+}
+.nav-bar{
+    width: 100%;
+    max-width: 800px;
+}
+.nav-bar ul{
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-between;
+    font-size: 22px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.nav-bar ul li{
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+.show-me{
+    display:none;
+}

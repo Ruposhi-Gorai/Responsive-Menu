@@ -1,0 +1,33 @@
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+ h-container figure img{
+    width: 70px;
+ }
+  .nav-bar{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .nav-bar ul {
+    position: fixed;
+    padding: 60px 20px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.884);
+    width: 80%;
+    height: 100vh;
+    top: 0px;
+    left:-100%;
+    transition: 0.5s;
+    flex-direction: column;
+  }
+  .nav-bar ul li a {
+    color: white !important;
+  }
+  .fa-solid{
+    font-size: 30px;
+  }
+  .show-me{
+    display: block;
+}
+.menu ul{
+left: 0%;
+}
+}
